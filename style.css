@@ -1,0 +1,207 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e3f2fd;
+  margin-bottom: 8rem;
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.donation-button {
+  display: absolute;
+}
+
+.donation-link {
+  border-radius: 5px;
+  width: 15rem;
+  height: 3.5rem;
+  background-color: blue;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-size: 400%;
+  text-align: center;
+}
+#change {
+  color: #b2dfdb;
+}
+.bg {
+  background-color: #e3f2fd;
+}
+ul li {
+  font-weight: bold;
+}
+
+.atlanta {
+  max-width: 30rem;
+  float: left;
+}
+
+.outdoor {
+  margin: auto 40rem;
+}
+
+.hotels {
+  max-width: 30rem;
+  text-align: center;
+  float: right;
+}
+/* 
+.clear {
+  clear: right;
+} */
+
+/* I added id in nav tag and id selector in external css file  */
+#second {
+  color: #e0e0e0;
+}
+
+.social-media-section {
+  height: 110px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: rgb(227, 227, 227);
+  align-items: center;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+  margin-bottom: 5rem;
+  padding: 0 4rem;
+}
+.social-media-title {
+  text-align: center;
+  font-size: 3rem;
+  padding: 0 4rem;
+}
+.social-div {
+  max-width: 100px;
+  min-width: 20px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.image-section {
+  padding: 50px 0 50px 0;
+  max-width: 100%;
+  background-color: rgb(221, 236, 243);
+}
+
+.image-heading {
+  padding: 4rem 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.image-grid {
+  display: grid;
+
+  width: 120rem;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  gap: 3rem;
+}
+.website-image {
+  width: 100%;
+  align-self: center;
+  border-radius: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.last-footer {
+  font-size: 1.5rem;
+}
+.last-link {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1200px) {
+  website-image {
+    height: auto;
+    border-radius: 5px;
+  }
+}
+
+.fund-section {
+  padding: 9rem 2rem;
+  height: 90vh;
+  background-color: #ddd;
+}
+
+.fund-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+.primary-heading {
+  text-align: center;
+  font-weight: 600;
+}
+
+.card {
+  width: 100%;
+  height: 50rem;
+  /* background-color: red; */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px grey;
+}
+
+.fund-image {
+  width: 100%;
+  object-fit: fill;
+}
+
+.fund-description {
+  padding: 2rem 4rem;
+}
+
+@media screen and (max-width: 1200px) {
+  website-image {
+    border-radius: 5px;
+  }
+
+  .website-image {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .image-grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+  .website-image {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10rem;
+  }
+  .fund-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
